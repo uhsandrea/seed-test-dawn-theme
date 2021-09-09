@@ -1778,6 +1778,7 @@ header {
 
 header a {
   text-decoration: none;
+  color: inherit;
 }
 
 header a:active {
@@ -1810,7 +1811,7 @@ header a:visited {
   position: absolute;
   top: -110vh;
   background-color: white;
-  width: 100%;
+  width: 100vw;
   padding: 20px 15px;
   display: flex;
   transition: all 0.2s linear;
@@ -1973,10 +1974,12 @@ header a:visited {
   .bottom-menu__item.link {
     text-decoration: none;
     font-size: 12px;
+    color: white;
   }
   
   .bottom-menu__item.link:active > span {
     text-decoration: underline;
+    color: #111111;
   }
   
   #hamburger span {
